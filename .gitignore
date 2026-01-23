@@ -1,0 +1,26 @@
+# python
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*egg-info/
+
+# database files
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# logs
+logs/
+*.log
+
+# jupyter
+.ipynb-checkpoints/
+
+# environment vars
+.env
+config_local.py
+
+# os
+.DS_Store
